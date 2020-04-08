@@ -1,0 +1,8 @@
+grep -r "dir1" #recursive search
+grep -w "word" file #searchong file in word
+grep -wc "word" file #searching the word count in file
+grep -n "word" file #gives line number in output
+grep -color 'data' file
+grep -hR "word" file #for hidden suppressesed file
+grep -w "word1 word2" file
+grep -w "word" * #for all files
